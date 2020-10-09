@@ -1,0 +1,23 @@
+
+#nametag-container{
+        width:753px;
+        height:473px;
+        background-color:#000000;
+        margin:auto;
+
+
+}
+
+#h1{
+    text-align:center;
+    color:#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+}
+
+
+.circle{
+    position:absolute;
+    bottom:-240px;
+    left:-140px;
+}
