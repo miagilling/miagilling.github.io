@@ -1,0 +1,397 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.text-box{
+    font-size:60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(58, 14, 177);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+}
+
+
+}
+span:nth-child(1){
+    animation-delay: 0.5s;
+}
+span:nth-child(2){
+    animation-delay: 1s;
+}
+span:nth-child(3){
+    animation-delay: 1.5s;
+}
+span:nth-child(4){
+    animation-delay: 2s;
+}
+span:nth-child(5){
+    animation-delay: 2.5s;
+}
+span:nth-child(6){
+    animation-delay: 3s;
+}
+span:nth-child(7){
+    animation-delay: 3.5s;
+}
+span:nth-child(8){
+    animation-delay: 4s;
+}
+span:nth-child(9){
+    animation-delay: 4.5s;
+}
+span:nth-child(10){
+    animation-delay: 5s;
+}
+span:nth-child(11){
+    animation-delay: 5.5s;
+}
+span:nth-child(12){
+    animation-delay: 6s;
+}
+span:nth-child(13){
+    animation-delay: 6.5s;
+}
+span:nth-child(14){
+    animation-delay: 7s;
+}
+span:nth-child(15){
+    animation-delay: 7.5s;
+}
+span:nth-child(16){
+    animation-delay: 7.5s;
+}
+
+body{
+    height:8000px;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(31,0,128,1) 0%, rgba(154,96,247,1) 54%, rgba(255,73,150,1) 64%, rgba(221,133,8,1) 72%, rgba(205,183,254,1) 100%);
+}
+
+.text-box-two{
+    font-size:60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(204, 163, 161);
+    position: absolute;
+    top:130%;
+    left:60%;
+    transform:translate(-130%,-60%);
+
+
+}
+
+span{
+display:inline-block;
+font-weight: bolder;
+animation: mover 5s linear infinite;
+
+}
+@keyframes mover{
+    0%{
+        text-shadow: 0 0 30px rgba(44, 6, 216, 0);
+    }
+    50%{
+        text-shadow: 0 0 30px rgba(37, 14, 236, 0.3);
+        transform: translateY(30px);
+    }
+    100%{
+        text-shadow: 0 0 30px rgba(46, 17, 212, 0);
+    }
+}
+
+span:nth-child(1){
+    animation-delay: 0.5s;
+}
+span:nth-child(2){
+    animation-delay: 1s;
+}
+span:nth-child(3){
+    animation-delay: 1.5s;
+}
+span:nth-child(4){
+    animation-delay: 2s;
+}
+span:nth-child(5){
+    animation-delay: 2.5s;
+}
+span:nth-child(6){
+    animation-delay: 3s;
+}
+span:nth-child(7){
+    animation-delay: 3.5s;
+}
+span:nth-child(8){
+    animation-delay: 4s;
+}
+span:nth-child(9){
+    animation-delay: 4.5s;
+}
+span:nth-child(10){
+    animation-delay: 5s;
+}
+span:nth-child(11){
+    animation-delay: 5.5s;
+}
+span:nth-child(12){
+    animation-delay: 6s;
+}
+
+
+.text-box-three{
+    font-size:60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(233, 93, 147);
+    position: absolute;
+    top:200%;
+    left:10%;
+    right:50%;
+    transform:translate(-200%,10%,-50%);
+
+}
+
+
+.text-box-four{
+    font-size:60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(233, 65, 35);
+    position: absolute;
+    top:220%;
+    left:20%;
+    right:20%;
+    transform:translate(-220%,-20%,-20%);
+
+}
+
+
+.text-box-five{
+    font-size:60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(25, 4, 73);
+    position: absolute;
+    top:280%;
+    left:5%;
+    right:5%;
+    transform:translate(-280%,-5%,-5%);
+
+}
+
+
+.crime{
+    font-size:60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(25, 4, 73);
+    position: absolute;
+    top:295%;
+    left:20%;
+    right:20%;
+    transform:translate(-295%,-20%,-20%);
+
+}
+
+
+
+.text-box-six{
+    font-size:60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(25, 4, 73);
+    position: absolute;
+    top:320%;
+    left:20%;
+    right:20%;
+    transform:translate(-320%,-20%,-20%);
+
+}
+
+
+.with-me{
+
+    font-size:60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(101, 80, 194);
+    position: absolute;
+    top:335%;
+    left:30%;
+    right:20%;
+    transform:translate(-335%,-30%,-20%);
+}
+
+.life{
+    font-size:60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(150, 114, 233);
+    position: absolute;
+    top:420%;
+    left:25%;
+    right:20%;
+    transform:translate(-420%,-25%,-20%);
+}
+
+.cant{
+    font-size:60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(218, 88, 207);
+    position: absolute;
+    top:450%;
+    left:25%;
+    right:20%;
+    transform:translate(-450%,-25%,-20%);
+}
+
+.theres{
+    font-size:60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(101, 80, 194);
+    position: absolute;
+    top:520%;
+    left:30%;
+    right:20%;
+    transform:translate(-520%,-30%,-20%);
+
+}
+
+.future{
+    font-size:60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(134, 95, 228);
+    position: absolute;
+    top:540%;
+    left:30%;
+    right:20%;
+    transform:translate(-540%,-30%,-20%);
+}
+
+.left{
+    font-size:60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(101, 80, 194);
+    position: absolute;
+    top:560%;
+    left:10%;
+    right:20%;
+    transform:translate(-560%,-10%,-20%);
+}
+
+.hoping{
+    font-size:60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(243, 215, 172);
+    position: absolute;
+    top:630%;
+    left:20%;
+    right:20%;
+    transform:translate(-630%,-20%,-20%);
+}
+
+.searching{
+    font-size:60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(243, 215, 172);
+    position: absolute;
+    top:645%;
+    left:20%;
+    right:20%;
+    transform:translate(-645%,-20%,-20%);
+}
+
+.endlessly{
+    font-size:60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(243, 215, 172);
+    position: absolute;
+    top:670%;
+    left:30%;
+    right:20%;
+    transform:translate(-670%,-30%,-20%);
+}
+
+.baby{
+    font-size:60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(247, 178, 75);
+    position: absolute;
+    top:720%;
+    left:30%;
+    right:20%;
+    transform:translate(-720%,-30%,-20%);
+}
+
+.now{
+    font-size:60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(235, 100, 11);
+    position: absolute;
+    top:740%;
+    left:5%;
+    right:5%;
+    transform:translate(-740%,-5%,-5%);
+}
+
+.that{
+    font-size:60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(253, 70, 140);
+    position: absolute;
+    top:760%;
+    left:30%;
+    right:5%;
+    transform:translate(-760%,-30%,-5%);
+}
+
+.so{
+    font-size:60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(180, 70, 253);
+    position: absolute;
+    top:820%;
+    left:20%;
+    right:5%;
+    transform:translate(-820%,-20%,-5%);
+}
+
+.blue{
+    font-size:60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(44, 82, 253);
+    position: absolute;
+    top:845%;
+    left:45%;
+    right:5%;
+    transform:translate(-845%,-45%,-5%);
+}
+
+.another{
+    font-size:60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(12, 37, 146);
+    position: absolute;
+    top:920%;
+    left:15%;
+    right:5%;
+    transform:translate(-920%,-15%,-5%);
+}
+
+.waiting{
+    font-size:60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(12, 37, 146);
+    position: absolute;
+    top:940%;
+    left:15%;
+    right:5%;
+    transform:translate(-940%,-15%,-5%);
+}
+
+.for-you{
+    font-size:60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(6, 25, 112);
+    position: absolute;
+    top:1020%;
+    left:40%;
+    right:5%;
+    transform:translate(-1020%,-40%,-5%);
+
+}
