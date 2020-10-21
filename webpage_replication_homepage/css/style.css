@@ -1,0 +1,130 @@
+body{
+    margin:0;
+}
+
+
+nav{
+    width:97.5%;
+    height:40px;
+    background:rgb(59, 59, 59);
+    padding: 10px 20px;
+    display:flex;
+    justify-content: space-around;
+    
+}
+
+#logo{
+    height:100%;
+    width:100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    margin:0;
+    padding:0;
+}
+
+#searchbar{
+    width:40%;
+    height:100%;
+    background:rgb(134, 133, 133);
+    padding:0px;
+}
+
+#sign-in{
+    width:20%;
+    height:100%;
+    background:rgb(59, 59, 59);
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    float:right;
+    padding:0;
+    margin:0;
+   
+}
+
+
+aside{
+    width:20%;
+    height:900px;
+    background: #b1b0b0;
+    float:right;
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
+
+}
+
+aside ul{
+    margin:0;
+    padding:0;
+}
+
+aside li{
+    list-style:none;
+    padding:30px;
+    border-bottom: 1px solid black;
+}
+
+aside li div{
+    background: grey;
+    height:2000px;
+    width:100%;
+}
+
+.more-of-what-you-like{
+   font-family: Arial, Helvetica, sans-serif;
+   color:black;
+   float:center;
+    margin-top: 40px;
+    background:rgb(216, 216, 216);
+    padding-left: 25px;
+    
+}
+
+.more-of-what-you-like ul{
+    list-style-type: none;
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    column-gap:15px;
+    height:200px;
+    width:200px;
+    padding-left: 25px;
+}
+
+.more-of-what-you-like li{
+    height: 200px;
+    width: 200px;
+    background:#e08a44;
+    
+}
+
+.the-upload{
+    background:rgb(216, 216, 216);
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    padding-left: 25px;
+      
+}
+
+.the-upload ul{
+    list-style-type: none;
+    height:200px;
+    width:800px;
+    background:#e08a44;
+    padding-left: 25px;
+}
+
+.soundcloud-weekly{
+    background:rgb(216, 216, 216);
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    float:center;
+    padding-left: 25px;
+    
+}
+
+.soundcloud-weekly ul{
+    list-style-type: none;
+    height:200px;
+    width:800px;
+    background:#e08a44;
+    padding-left: 25px;
+}
