@@ -2,25 +2,34 @@
 #nametag-container{
         width:753px;
         height:473px;
-        background-color:#000000;
+        background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(13,82,51,1) 0%, rgba(94,165,220,1) 31%, rgba(180,134,255,1) 51%, rgba(238,176,226,1) 75%, rgba(247,218,246,1) 100%);
         margin:auto;
 
 
 }
 
 h1{
-    text-align:center;
     color:#ffffff;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 48px;
+    font-size: 100px;
+    margin-left:10px;
+    margin-bottom:0;
+    padding:0;
+   
 }
 
-
-.circle{
-    width: 400px;
-    height: 400px;
-    display: inline-flex;
-    border-radius: 100%;
-    background-color: white;
-    margin: 120 -30px;
+h3{
+    color:#fadcf6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-left:10px;
+    padding:0;
+    margin-top:0;
 }
+
+.click{
+margin-left:500;
+margin-top:100;
+}
+
