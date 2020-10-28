@@ -34,7 +34,7 @@ nav{
     height:40px;
 }
 
-#sign-in{
+#profile{
     width:20%;
     height:100%;
     background:rgb(59, 59, 59);
@@ -46,53 +46,79 @@ nav{
    
 }
 
-#sign-in h2 {
+#profile h2 {
     margin: 0;
 }
 
-
-aside{
-    flex-basis:20%;
-    height:947px;
-    background: #b1b0b0;
-    /* float:right; */
-    font-family:Arial, Helvetica, sans-serif;
-    color:black;
-
-}
 
 section {
     flex-basis: 80%;
 }
 
-aside ul{
+.likes{
+    width: 300px;
+    height:75%;
+    background:#868586;
+    float:right;
+    margin-top:200px;
+    padding:0;
+   font-family:Arial, Helvetica, sans-serif
+
+}
+
+.likes ul{
+    list-style: none;
+}
+
+.profile-header{
+    width: 200%;
+    height:200px;
     margin:0;
     padding:0;
+    background:#caadff;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+
 }
 
-aside li{
-    list-style:none;
-    padding:30px;
-    border-bottom: 1px solid black;
+.profile-header h2{
+    margin:0px;
+    padding:0px;
+    margin-left:250px;
+    
+   
 }
 
-aside li div{
-    background: grey;
-    height:2000px;
-    width:100%;
+.profile-header h4{
+    margin:0;
+    padding:0;
+    margin-left:250px;
+
 }
 
-.more-of-what-you-like{
+
+.circle{
+    background:white;
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+    display:inline-block;
+    margin-left:90px;
+    margin-top:-20px;
+}
+
+.recent{
    font-family: Arial, Helvetica, sans-serif;
    color:black;
    float:center;
     margin-top: 40px;
     background:rgb(216, 216, 216);
     padding-left: 25px;
+    width:150%;
     
 }
 
-.more-of-what-you-like ul{
+.recent ul{
     list-style-type: none;
     display:grid;
     grid-template-columns: repeat(4, 1fr);
@@ -104,49 +130,43 @@ aside li div{
     padding: 0;
 }
 
-.more-of-what-you-like li{
+.recent li{
+    /* height: 200px;
+    width: 200%; */
+    background:#e08a44;
+    
+}
+
+.nextsong{
+    background:rgb(216, 216, 216);
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    padding-left: 25px;
+    width:150%;
+      
+}
+
+.nextsong ul{
+    list-style-type: none;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap:15px;
+    height: 200px;
+    width: 90%;
+    /* width:200px; */
+    /* padding-left: 25px; */
+    padding: 0;
+}
+
+.nextsong li{
     /* height: 200px;
     width: 200px; */
     background:#e08a44;
     
 }
 
-.the-upload{
-    background:rgb(216, 216, 216);
-    font-family: Arial, Helvetica, sans-serif;
-    color:black;
-    padding-left: 25px;
-      
-}
 
-.the-upload ul{
-    list-style-type: none;
-    height:200px;
-    /* width:800px; */
-    width: 90%;
-    background:#e08a44;
-    /* padding-left: 25px; */
-    padding: 0;
-}
 
-.soundcloud-weekly{
-    background:rgb(216, 216, 216);
-    font-family: Arial, Helvetica, sans-serif;
-    color:black;
-    float:center;
-    padding-left: 25px;
-    
-}
-
-.soundcloud-weekly ul{
-    list-style-type: none;
-    height:200px;
-    /* width:800px; */
-    width: 90%;
-    background:#e08a44;
-    /* padding-left: 25px; */
-    padding-left: 0;
-}
 
 @media 
     (max-width: 640px){
@@ -155,36 +175,21 @@ aside li div{
         }
 
         aside{
-            flex-basis:20%;
-        }
-
-        .more-of-what-you-like{
-            flex-basis:80%;
-        }
-
-        .the-upload{
-            flex-basis: 90%;
-        }
-
-        .soundcloud-weekly{
-            flex-basis: 90%;
-        }
-
-        .more-of-what-you-like h4{
-            display: none;
-        }
-
-        .the-upload h4{
             display:none;
         }
 
-        .soundcloud-weekly h4{
-            display: none;
+        .recent{
+            flex-basis:50%;
         }
 
-        .more-of-what-you-like ul{
-            grid-template-columns: repeat(2, 1fr);
+        .nextsong{
+            flex-basis: 50%;
         }
+
+        .likes{
+            display:none;
+        }
+       
 
 
 
