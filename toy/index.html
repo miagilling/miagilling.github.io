@@ -1,0 +1,85 @@
+<html>
+
+<head>
+    <title>magic 8 ball</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <script type="text/javascript">
+        //we define answers
+        var options=["yes", 
+         "not in this political climate",
+         "f no",
+          "umm maybe",
+          "recalibrate your attitude and try again later",
+          "why would you ask me that", 
+          "i mean if you want to...", 
+          "haha", 
+          "maybe talk to your therapist about that", 
+          "no", 
+          "i'll consider it", 
+          "my sources say no", 
+          "outlook not so good", 
+          "yessss", 
+          "100%", 
+          "bet", 
+          "nah",
+          "check your costar instead",
+          "yeah. haha just kidding...unless", 
+          "wtf no",
+          "hellll yes",
+          "possibly",
+          "try again but ask nicely",
+          "not in these unprecedented times",
+          "i guess",
+          "sure",
+          "i refuse to answer that", 
+          "not rn", 
+          "simply no",
+          "yeah no",
+          "no yeah for sure",
+          "what?",
+          "no sorry"];
+
+         window.onload=function(){
+            var eight=document.getElementById("eight");
+            var answer=document.getElementById("answer");
+            var eightball=document.getElementById("eight-ball");
+            var question=document.getElementById("question");
+
+            eightball.addEventListener("click",function(){
+                if (question.value.length<1){
+                    alert('enter a question!');
+                } else{
+                    eight.innerText= "";
+                    var num=Math.floor(Math.random() * Math.floor(options.length));
+                    answer.innerText=options[num];
+                }
+            });
+        };
+
+    
+    </script>
+
+</head>
+
+<body>
+<div id="content">
+    <h3>ask me what you want to know and then click on the magic 8 ball</h3>
+</div>
+
+<input type="text" id="question"/>
+
+<div id="eight-ball" class="eight-ball">
+    <div class="answer">
+        <p id="eight">8</p>
+        <p id="answer"></p>
+
+    </div>
+</div>
+
+</body>
+
+
+
+
+</html>
