@@ -5,41 +5,43 @@
     <link rel="stylesheet" href="css/style.css">
 
     <script type="text/javascript">
-        //we define answers
-        var options=["yes", 
-         "not in this political climate",
-         "f no",
-          "umm maybe",
-          "recalibrate your attitude and try again later",
-          "why would you ask me that", 
-          "i mean if you want to...", 
-          "haha", 
-          "maybe talk to your therapist about that", 
-          "no", 
-          "i'll consider it", 
-          "my sources say no", 
-          "outlook not so good", 
-          "yessss", 
-          "100%", 
-          "bet", 
-          "nah",
-          "check your costar instead",
-          "yeah. haha just kidding...unless", 
-          "wtf no",
-          "hellll yes",
-          "possibly",
-          "try again but ask nicely",
-          "not in these unprecedented times",
-          "i guess",
-          "sure",
-          "i refuse to answer that", 
-          "not rn", 
-          "simply no",
-          "yeah no",
-          "no yeah for sure",
-          "what?",
-          "if the vibe is right",
-          "no sorry"];
+        var options=[
+            {"answer":"yes", "image":"smileys.gif"},
+            {"answer":"not in this political climate", "image":"gross.gif"},
+            {"answer":"f no", "image":"middlefinger.gif"},
+            {"answer":"umm maybe", "image":"shrugtext.gif"},
+            {"answer":"recalibrate your attitude and try again later", "image":"jackie.gif"},
+            {"answer":"why would you ask me that", "image":"really.gif"},
+            {"answer":"i mean if you want to...", "image":"stars.gif"},
+            {"answer":"haha","image": "harry.gif"},
+            {"answer":"maybe talk to your therapist about that", "image":"winston.gif"},
+            {"answer": "no", "image":"nogif.gif"},
+            {"answer":"i'll consider it", "image": "hearts.gif"},
+            {"answer":"my sources say no", "image":"x.gif"},
+            {"answer":"outlook not so good", "image":"tyler.gif"},
+            {"answer":"yessss", "image": "yesgif.gif"},
+            {"answer":"100%", "image":"hundred.gif"},
+            {"answer":"bet","image":"betgif.gif"},
+            {"answer":"nah","image":"nahgif.gif"},
+            {"answer":"check your costar instead", "image":"moon.gif"},
+            {"answer":"yeah. haha just kidding...unless", "image":"questionmark.gif"},
+            {"answer":"wtf no","image":"wtf.gif"},
+            {"answer":"hellll yes","image":"spinningheart.gif"},
+            {"answer":"possibly","image":"rainbowstars.gif"},
+            {"answer":"try again but ask nicely","image":"flower.gif"},
+            {"answer":"not in these unprecedented times","image":"masks.gif"},
+            {"answer":"i guess","image":"okay.gif"},
+            {"answer":"sure","image":"flowers.gif"},
+            {"answer":"i refuse to answer that", "image":"skull.gif"},
+            {"answer":"not rn", "image":"notrngif.gif"},
+            {"answer":"simply no","image":"sadface.gif"},
+            {"answer":"yeah no","image":"noface.gif"},
+            {"answer":"no yeah for sure","image":"skater.gif"},
+            {"answer":"what?","image":"obama.gif"},
+            {"answer":"if the vibe is right", "image":"rainbow.gif"},
+            {"answer":"no sorry", "image": "heartbreak.gif"}
+       
+          ];
 
          window.onload=function(){
             var eight=document.getElementById("eight");
@@ -53,11 +55,20 @@
                 } else{
                     eight.innerText= "";
                     var num=Math.floor(Math.random() * Math.floor(options.length));
-                    answer.innerText=options[num];
+                    answer.innerText=options[num].answer;
+                    //url(../images/betgif.gif)
+                    document.body.style.backgroundImage = 'url(images/' + options[num].image + ')';
                 }
             });
-        };
 
+         
+    }
+  
+
+        
+       
+
+        
     
     </script>
 
