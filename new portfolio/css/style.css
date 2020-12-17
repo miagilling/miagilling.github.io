@@ -1,0 +1,75 @@
+body{
+    background-color: #e4e1d3;
+}
+h2{
+font-size:80px;
+font-family: termina, sans-serif;
+font-style: bold;
+font-weight: 600;
+color:#2c0772;
+margin:0;
+padding:0;
+
+}
+
+h3{
+font-family: termina, sans-serif;
+font-style: italic;
+font-weight: 400;
+color:#2c0772;
+font-size: 80px;
+margin:0;
+padding:0;
+}
+
+h1{
+    font-family: termina, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color:#2c0772;
+    font-size: 80px;
+    margin:0;
+    padding:0; 
+
+}
+
+a[href="work.html"]{
+    font-family: 'paralucent', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    color:#2c0772;
+    font-size: 20px;
+  
+    padding:0; 
+    text-decoration: none;
+}
+
+a[href="about.html"]{
+    font-family: 'paralucent', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    color:#2c0772;
+    font-size: 20px;
+    margin-left:10;
+    padding:0; 
+    text-decoration: none;
+}
+
+
+
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 40px;
+    
+    }
+    h2{
+        font-size: 40px;
+      
+    }
+    h3{
+        font-size: 40px;
+  
+    }
+
+  
+  }
