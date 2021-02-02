@@ -1,0 +1,84 @@
+body{
+    background-color: black;
+}
+
+.content{
+    max-width: 500px;
+    margin:auto;
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color:cadetblue;
+    margin-bottom:0;
+    font-weight: lighter;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color:crimson;
+    margin-top:0;
+    font-weight: lighter;
+    text-align: center;
+}
+
+
+a:visited{
+    color:crimson;
+}
+
+a:hover{
+    color:cadetblue;
+}
+
+a{
+    font-family: 'Courier New', Courier, monospace;
+    margin:auto;
+   text-align: center;
+}
+
+p{
+    color:crimson; 
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 10pt;
+    text-align: center;
+}
+
+.one{
+    display: block;
+    text-align: center;
+}
+
+.two{
+    display: block;
+    text-align: center;
+}
+
+.three{
+    display: block;
+    text-align: center;
+}
+
+.spotify{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.instagram{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.twitter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
