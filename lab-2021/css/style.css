@@ -1,0 +1,36 @@
+blockquote{
+    margin-top:-70;
+    margin-left:110;
+}
+
+h3{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.drive{
+    background-color: rgb(184, 223, 159);
+    
+}
+
+.canvas{
+    background-color: rgb(184, 223, 159);
+}
+
+a{
+    text-decoration: none;
+    color:mediumpurple;
+}
+
+a:visited{
+    color:darkgreen;
+}
+
+a:hover{
+    color:darksalmon;
+}
+
+body{
+    background-color: lightpink;
+    opacity: 85%;
+}
+
