@@ -1,6 +1,15 @@
 h1{
     font-family: 'Courier New', Courier, monospace;
     text-shadow:2px 2px #d9bff1; 
+   
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-style: italic;
+    color: #d9bff1; 
+    
 }
 
 p{
