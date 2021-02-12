@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'znikomitregular';
+    src: url('../fonts/webfontkit-20210212-015809/znikomit-webfont.woff') format('woff2'),
+         url('../fonts/webfontkit-20210212-015809/znikomit-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+body{
+    margin-left:100;
+    padding:100;
+}
+
+h1{
+    margin-top: 50;
+    margin-left: 180;
+    font-family:'znikomitregular';
+    font-size: 50px;
+}
+
+h2{
+    margin-left: 50;
+    margin-right: 50;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+}
+ul{
+    margin-left:100;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.one{
+    background-color:rgb(247, 205, 179);
+}
+
+.two{
+    background-color: rgb(243, 206, 194);
+}
+
+.three{
+    background-color: rgb(252, 237, 204);
+}
+
+.four{
+    background-color: rgb(243, 187, 161);
+}
+
+.five{
+    background-color: rgb(247, 216, 178);
+}
+
+.six{
+    background-color: rgb(216, 236, 218);
+}
+
+.seven{
+    background-color: rgb(241, 194, 178);
+}
+
+.eight{
+    background-color: rgb(247, 236, 205);
+}
+
+.nine{
+    background-color: rgb(243, 209, 177);
+}
+
+.ten{
+    background-color: darkseagreen;
+}
+
+.eleven{
+    background-color: rgb(250, 211, 201);
+}
+
+.twelve{
+    background-color: rgb(243, 226, 193);
+}
+
+.thirteen{
+    background-color: rgb(197, 241, 217);
+}
+
+.fourteen{
+    background-color: rgb(241, 211, 198);
+}
+
+a{
+    color:brown;
+    text-decoration: none;
+}
+
+a:visited{
+    color:tan;
+}
