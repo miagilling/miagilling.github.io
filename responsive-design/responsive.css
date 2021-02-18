@@ -1,0 +1,57 @@
+  
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    color:rgb(99, 95, 95);
+    font-size: 3em;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-style: italic;
+    color:rgb(99, 95, 95);
+    font-size:2.5em;
+}
+
+body{
+    background-color: lightgray;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color:blue;
+    font-size: 2em;
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+}
+
+@media screen and (min-width: 768px) {
+    p {
+      color:rgb(99, 95, 95);
+      width:33.33%;
+      font-size: 1em;
+    }
+
+    h1{
+        color:blue;
+        font-size: 4em;
+        
+    }
+
+    h2{
+        color:blue;
+        font-size: 3em;
+    }
+
+    .container{
+        padding:60px;
+        flex-direction:row;
+        flex-wrap: wrap;
+    }
+  }
+
+  
