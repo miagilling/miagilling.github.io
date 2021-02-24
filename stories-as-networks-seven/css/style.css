@@ -1370,7 +1370,7 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(13,82,51,1) 0%, r
     color:rgb(171, 243, 213);
     padding-right:800;
     padding-bottom:1800;
-    max-width: 1000px;
+    max-width: 450px;
     margin: 0 auto;
     animation: fadeIn ease 460s;
     -webkit-animation: fadeIn ease 460s;
@@ -1429,6 +1429,7 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(13,82,51,1) 0%, r
     color:rgb(171, 243, 213);
     text-align: center;
     padding-bottom:1700;
+    max-width: 450;
     margin: 0 auto;
     animation: fadeIn ease 460s;
     -webkit-animation: fadeIn ease 460s;
@@ -1545,7 +1546,7 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(13,82,51,1) 0%, r
     font-size: 12pt;
     color:rgb(171, 243, 213);
     padding-bottom:900;
-    padding-left:1200;
+    padding-left:800;
     max-width: 400px;
     margin: 0 auto;
     animation: fadeIn ease 500s;
