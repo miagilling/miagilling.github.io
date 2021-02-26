@@ -1,0 +1,403 @@
+
+@font-face {
+    font-family: 'gravitybook';
+    src: url('../fonts/webfontkit-20210225-194426/gravity-book-webfont.woff') format('woff2'),
+         url('../fonts/webfontkit-20210225-194426/gravity-book-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    background: rgb(0, 0, 0);
+    
+  }
+  #one {
+    font-family: 'gravitybook';
+    font-size: 12pt;
+    color:rgb(217, 213, 248);
+    padding-top:80;
+    padding-bottom:1000;
+    padding-left:120;
+    max-width:400px;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  }
+
+
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #2300e6, 0 0 40px #2300e6, 0 0 50px #2300e6, 0 0 60px #2300e6, 0 0 70px #2300e6;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #94b1f1, 0 0 40px #94b1f1, 0 0 50px #94b1f1, 0 0 60px #94b1f1, 0 0 70px #94b1f1, 0 0 80px #94b1f1;
+    }
+  }
+  
+
+  #it {
+    font-family: 'gravitybook';
+    font-size: 65pt;
+    color:rgb(217, 213, 248);
+    padding-top:50;
+    padding-bottom:1000;
+    text-align:center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+
+  
+  #two {
+    font-family: 'gravitybook';
+    font-size: 12pt;
+    color:rgb(217, 213, 248);
+    max-width: 290px;
+    padding-left:120;
+    padding-bottom:1000;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+ 
+
+  #sonic {
+    font-family: 'gravitybook';
+    font-size: 30pt;
+    color:rgb(217, 213, 248);
+    text-align: center;
+    padding-bottom:1000;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  
+  #three {
+    font-size: 12pt;
+    font-family: 'gravitybook';
+    color:rgb(217, 213, 248);
+    padding-bottom:1000;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+
+  
+
+  #surrounding {
+    font-size: 55pt;
+    font-family: 'gravitybook';
+    padding-left:800;
+    color:rgb(217, 213, 248);
+    padding-bottom:1000;
+    margin: 0 auto;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  
+  #four {
+    font-family: 'gravitybook';
+    font-size: 12pt;
+    padding-left:900;
+    color:rgb(217, 213, 248);
+    padding-bottom:1000;
+    max-width: 440px;
+    margin: 0 auto;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+
+  
+  #five {
+    font-family: 'gravitybook';
+    font-size: 12pt;
+    text-align: center;
+    color:rgb(217, 213, 248);
+    padding-bottom:1000;
+    max-width: 430px;
+    margin: 0 auto;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  }
+ 
+  #studios {
+    font-family: 'gravitybook';
+    font-size: 25pt;
+    padding-right: 400;
+    padding-left:100;
+    color:rgb(217, 213, 248);
+    padding-bottom:1000;
+    margin: 0 auto;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  }
+
+  #six {
+    font-family: 'gravitybook';
+    font-size: 12pt;
+    color:rgb(217, 213, 248);
+    padding-right: 500;
+    padding-bottom:1000;
+    max-width: 430px;
+    margin: 0 auto;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  
+  #seven {
+    font-family: 'gravitybook';
+    font-size: 12pt;
+    color:rgb(217, 213, 248);
+    padding-left:700;
+    padding-bottom:1000;
+    max-width: 430px;
+    margin: 0 auto;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+ 
+
+  #immersed {
+    font-family: 'gravitybook';
+    font-size: 30pt;
+    color:rgb(217, 213, 248);
+    padding-bottom:1000;
+    padding-left:200;
+    margin: 0 auto;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  
+  #eight {
+    font-family: 'gravitybook';
+    font-size: 40pt;
+    text-align: center;
+    color:rgb(217, 213, 248);
+    padding-bottom:1000;
+    margin: 0 auto;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  #clear {
+    font-family: 'gravitybook';
+    font-size: 20pt;
+    color:rgb(217, 213, 248);
+    padding-bottom:1000;
+    padding-left:100;
+    margin: 0 auto;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  
+  #nine {
+    font-family: 'gravitybook';
+    font-size: 12pt;
+    color:rgb(217, 213, 248);
+    max-width: 410px;
+    margin: 0 auto;
+    padding-right:500;
+    padding-bottom:1000;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  }
+
+  
+  #ten {
+    font-family: 'gravitybook';
+    font-size: 12pt;
+    color:rgb(217, 213, 248);
+    padding-left:800;
+    padding-bottom:1000;
+    max-width: 410px;
+    margin: 0 auto;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  
+  #eleven {
+    font-family: 'gravitybook';
+    font-size: 12pt;
+    color:rgb(217, 213, 248);
+    text-align: center;
+    padding-bottom:1000;
+    max-width: 450px;
+    margin: 0 auto;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  }
+ 
+
+  #actually {
+    font-family: 'gravitybook';
+    font-size: 40pt;
+    color:rgb(217, 213, 248);
+    text-align: center;
+    padding-bottom:1000;
+    margin: 0 auto;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  #twelve {
+    font-family: 'gravitybook';
+    font-size: 18pt;
+    color:rgb(217, 213, 248);
+    max-width: 400px;
+    padding-right:700;
+    margin: 0 auto;
+    padding-bottom:1000;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  #thirteen {
+    font-family: 'gravitybook';
+    font-size: 12pt;
+    text-align: center;
+    color:rgb(217, 213, 248);
+    max-width: 400px;
+    margin: 0 auto;
+    padding-bottom:1000;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  
+  #fourteen {
+    font-family: 'gravitybook';
+    font-size: 12pt;
+    color:rgb(191, 207, 250);
+    padding-bottom:1000;
+    padding-left:800;
+    max-width: 400px;
+    margin: 0 auto;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  
+  #ambience {
+    font-family: 'gravitybook';
+    font-size: 50pt;
+    color:rgb(191, 207, 250);
+    padding-bottom:1000;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  #fifteen {
+    font-family: 'gravitybook';
+    font-size: 12pt;
+    color:rgb(191, 207, 250);
+    padding-bottom:1000;
+    max-width: 400px;
+    margin: 0 auto;
+    padding-left:800;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  
+  #sixteen {
+    font-family: 'gravitybook';
+    font-size: 12pt;
+    color:rgb(191, 207, 250);
+    padding-right:800;
+    padding-bottom:1000;
+    max-width: 450px;
+    margin: 0 auto;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  #induce {
+    font-family: 'gravitybook';
+    font-size: 30pt;
+    color:rgb(191, 207, 250);
+    text-align: center;
+    padding-bottom:1000;
+    max-width: 450;
+    margin: 0 auto;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  
+  #seventeen {
+    font-family: 'gravitybook';
+    font-size: 12pt;
+    text-align: center;
+    color:rgb(191, 207, 250);
+    padding-bottom:1000;
+    max-width: 300px;
+    margin: 0 auto;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  
+  #eighteen {
+    font-family: 'gravitybook';
+    font-size: 12pt;
+    color:rgb(191, 207, 250);
+    padding-bottom:1000;
+    padding-left:800;
+    max-width: 400px;
+    margin: 0 auto;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+ 
+  #credits {
+    font-family: 'gravitybook';
+    font-size: 14pt;
+    color:rgb(191, 207, 250);
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  }
+ 
+
+  @media screen and (max-width:600px) {
+  
+    #one{
+     width: 50%;
+    }
+
+  }
