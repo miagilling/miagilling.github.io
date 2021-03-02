@@ -16,11 +16,10 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 0%, rgba
     font-size: 14pt;
     color:rgb(209, 208, 250);
     padding-top:80;
-    padding-bottom:1300;
+    padding-bottom:1800;
     padding-left:120;
     max-width:400px;
-    animation: fadeIn ease 10s;
-    -webkit-animation: fadeIn ease 15s;
+    animation: fadeIn ease 15s;
   }
 
   /* fade in code from https://medium.com/cloud-native-the-gathering/how-to-use-css-to-fade-in-and-fade-out-html-text-and-pictures-f45c11364f08 */
@@ -75,9 +74,9 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 0%, rgba
     font-size: 25pt;
     color:rgb(209, 208, 250);
     padding-top:50;
-    padding-bottom:1500;
+    padding-bottom:1800;
     text-align:center;
-    animation: fadeIn ease 30s;
+    animation: fadeIn ease 40s;
   }
 
   
@@ -88,8 +87,8 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 0%, rgba
     color:rgb(209, 208, 250);
     max-width: 290px;
     padding-left:120;
-    padding-bottom:1200;
-    animation: fadeIn ease 25s;
+    padding-bottom:1500;
+    animation: fadeIn ease 60s;
   }
 
 
@@ -98,19 +97,19 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 0%, rgba
     font-size: 30pt;
     color:rgb(209, 208, 250);
     text-align: center;
-    padding-bottom:1400;
-    animation: fadeIn ease 25s;
+    padding-bottom:2200;
+    animation: fadeIn ease 120s;
   }
 
   #three {
     font-size: 14pt;
     font-family: 'robotothin';
     color:rgb(209, 208, 250);
-    padding-bottom:1000;
+    padding-bottom:2000;
     text-align: left;
     max-width: 400px;
     margin: 0 auto;
-    animation: fadeIn ease 60s;
+    animation: fadeIn ease 130s;
     }
 
 
@@ -119,9 +118,9 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 0%, rgba
     font-family: 'robotothin';
     padding-left:800;
     color:rgb(209, 208, 250);
-    padding-bottom:1800;
+    padding-bottom:2100;
     margin: 0 auto;
-    animation: fadeIn ease 60s;
+    animation: fadeIn ease 170s;
   }
   
 
@@ -129,12 +128,12 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 0%, rgba
     font-family: 'robotothin';
     font-size: 14pt;
     text-align: left;
-    padding-left:900;
+    padding-left:800;
     color:rgb(209, 208, 250);
-    padding-bottom:1600;
+    padding-bottom:2200;
     max-width: 440px;
     margin: 0 auto;
-    animation: fadeIn ease 100s;
+    animation: fadeIn ease 200s;
   }
   
   #five {
@@ -142,10 +141,10 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 0%, rgba
     font-size: 14pt;
     text-align: left;
     color:rgb(209, 208, 250);
-    padding-bottom:2000;
+    padding-bottom:2300;
     max-width: 430px;
     margin: 0 auto;
-    animation: fadeIn ease 160s;
+    animation: fadeIn ease 220s;
   }
   
   #studios {
@@ -154,9 +153,9 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 0%, rgba
     padding-right: 400;
     padding-left:100;
     color:rgb(209, 208, 250);
-    padding-bottom:1300;
+    padding-bottom:2000;
     margin: 0 auto;
-    animation: fadeIn ease 160s;
+    animation: fadeIn ease 240s;
   }
 
   #six {
@@ -164,10 +163,10 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 0%, rgba
     font-size: 14pt;
     color:rgb(209, 208, 250);
     padding-right: 500;
-    padding-bottom:1800;
+    padding-bottom:2200;
     max-width: 430px;
     margin: 0 auto;
-    animation: fadeIn ease 220s;
+    animation: fadeIn ease 260s;
   }
   
   #seven {
@@ -175,10 +174,10 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 0%, rgba
     font-size: 14pt;
     color:rgb(209, 208, 250);
     padding-left:700;
-    padding-bottom:1100;
+    padding-bottom:2000;
     max-width: 430px;
     margin: 0 auto;
-    animation: fadeIn ease 180s;
+    animation: fadeIn ease 280s;
   }
 
   #immersed {
@@ -188,7 +187,7 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 0%, rgba
     padding-bottom:2100;
     padding-left:200;
     margin: 0 auto;
-    animation: fadeIn ease 180s;
+    animation: fadeIn ease 300s;
   }
   
   #eight {
@@ -196,19 +195,19 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 0%, rgba
     font-size: 40pt;
     text-align: center;
     color:rgb(209, 208, 250);
-    padding-bottom:1900;
+    padding-bottom:2200;
     margin: 0 auto;
-    animation: fadeIn ease 200s;
+    animation: fadeIn ease 320s;
   }
 
   #clear {
     font-family: 'robotothin';
     font-size: 22pt;
     color:rgb(209, 208, 250);
-    padding-bottom:1000;
+    padding-bottom:2000;
     padding-left:100;
     margin: 0 auto;
-    animation: fadeIn ease 200s;
+    animation: fadeIn ease 340s;
   }
   
   #nine {
@@ -218,19 +217,19 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 0%, rgba
     max-width: 410px;
     margin: 0 auto;
     padding-right:500;
-    padding-bottom:1200;
-    animation: fadeIn ease 220s;
+    padding-bottom:2100;
+    animation: fadeIn ease 360s;
   }
   
   #ten {
     font-family: 'robotothin';
     font-size: 14pt;
     color:rgb(209, 208, 250);
-    padding-left:800;
-    padding-bottom:1600;
+    padding-left:700;
+    padding-bottom:2000;
     max-width: 410px;
     margin: 0 auto;
-    animation: fadeIn ease 240s;
+    animation: fadeIn ease 380s;
     }
   
   
@@ -239,10 +238,10 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 0%, rgba
     font-size: 14pt;
     color:rgb(209, 208, 250);
     text-align: left;
-    padding-bottom:600;
+    padding-bottom:2200;
     max-width: 450px;
     margin: 0 auto;
-    animation: fadeIn ease 280s;
+    animation: fadeIn ease 400s;
   }
 
   #actually {
@@ -250,9 +249,9 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 0%, rgba
     font-size: 40pt;
     color:rgb(209, 208, 250);
     text-align: center;
-    padding-bottom:1600;
+    padding-bottom:2000;
     margin: 0 auto;
-    animation: fadeIn ease 280s;
+    animation: fadeIn ease 420s;
   }
   
   #twelve {
@@ -261,9 +260,10 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 0%, rgba
     color:rgb(209, 208, 250);
     max-width: 400px;
     padding-right:700;
+    padding-left:100;
     margin: 0 auto;
-    padding-bottom:1700;
-    animation: fadeIn ease 320s;
+    padding-bottom:2200;
+    animation: fadeIn ease 440s;
   }
   
   
@@ -274,30 +274,30 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 0%, rgba
     color:rgb(209, 208, 250);
     max-width: 400px;
     margin: 0 auto;
-    padding-bottom:1100;
-    animation: fadeIn ease 350s;
+    padding-bottom:2000;
+    animation: fadeIn ease 460s;
   }
   
   #fourteen {
     font-family: 'robotothin';
     font-size: 14pt;
     color:rgb(209, 208, 250);
-    padding-bottom:1600;
-    padding-left:800;
+    padding-bottom:2200;
+    padding-left:700;
     max-width: 400px;
     margin: 0 auto;
-    animation: fadeIn ease 400s;
+    animation: fadeIn ease 480s;
   }
   
   #ambience {
     font-family: 'robotothin';
     font-size: 50pt;
     color:rgb(209, 208, 250);
-    padding-bottom:1600;
+    padding-bottom:2200;
     text-align: center;
     max-width: 500px;
     margin: 0 auto;
-    animation: fadeIn ease 400s;
+    animation: fadeIn ease 500s;
   }
 
   #fifteen {
@@ -308,7 +308,7 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 0%, rgba
     max-width: 400px;
     margin: 0 auto;
     padding-left:800;
-    animation: fadeIn ease 430s;
+    animation: fadeIn ease 520s;
   }
   
   #sixteen {
@@ -316,10 +316,11 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 0%, rgba
     font-size: 14pt;
     color:rgb(209, 208, 250);
     padding-right:800;
-    padding-bottom:1800;
+    padding-left:100;
+    padding-bottom:2000;
     max-width: 450px;
     margin: 0 auto;
-    animation: fadeIn ease 460s;
+    animation: fadeIn ease 540s;
   }
 
   #induce {
@@ -327,10 +328,10 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 0%, rgba
     font-size: 22pt;
     color:rgb(209, 208, 250);
     text-align: left;
-    padding-bottom:1900;
+    padding-bottom:2300;
     max-width: 800;
     margin: 0 auto;
-    animation: fadeIn ease 460s;
+    animation: fadeIn ease 560s;
   }
   
   #seventeen {
@@ -338,22 +339,22 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 0%, rgba
     font-size: 14pt;
     text-align: left;
     color:rgb(209, 208, 250);
-    padding-bottom:2100;
+    padding-bottom:2200;
     padding-right:500;
     max-width: 300px;
     margin: 0 auto;
-    animation: fadeIn ease 480s;
+    animation: fadeIn ease 580s;
   }
   
   #eighteen {
     font-family: 'robotothin';
     font-size: 14pt;
     color:rgb(209, 208, 250);
-    padding-bottom:1200;
-    padding-left:800;
+    padding-bottom:2000;
+    padding-left:700;
     max-width: 400px;
     margin: 0 auto;
-    animation: fadeIn ease 500s;
+    animation: fadeIn ease 600s;
   }
 
   #credits {
@@ -361,7 +362,7 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 0%, rgba
     font-size: 14pt;
     color:rgb(209, 208, 250);
     text-align: center;
-    animation: fadeIn ease 500s;
+    animation: fadeIn ease 620s;
   }
 
 /* button code from w3 schools*/
@@ -369,7 +370,7 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 0%, rgba
     display: none; 
     position: fixed; 
     bottom: 20px; 
-    right: 30px; 
+    left: 30px; 
     z-index: 99; 
     border: none; 
     outline: none; 
@@ -378,7 +379,7 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 0%, rgba
     cursor: pointer; 
     padding: 15px; 
     border-radius: 10px; 
-    font-size: 8px; 
+    font-size: 14px; 
   }
   
   #myBtn:hover {
@@ -386,20 +387,25 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 0%, rgba
   }
   
   @media screen and (max-width:600px) {
+
+    body{
+        margin:0;
+    }
   
-   #one{
-       font-size: 40px;
+#one{
+       font-size: 60px;
        width: 100%;
    }
 
-   #it{
+#it{
     font-size: 70px;
-    padding-left:265;
+    padding-left:400;
+    padding-right:0;
     width: 100%;
 }
 
 #two{
-    font-size: 40px;
+    font-size: 60px;
     width: 100%;
 }
 
@@ -407,54 +413,56 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 0%, rgba
     font-size: 80px;
     width: 100%;
     text-align: left;
-    padding-left:250;
+    padding-left:400;
+    padding-right:0;
 }
 
 #three{
-    font-size: 40px;
+    font-size: 60px;
     width: 100%;
     padding-left:100;
 }
 
 #surrounding{
     font-size: 90px;
-    padding-left:300;
+    padding-left:400;
+    padding-right:0;
     text-align:center;
     width: 100%;
 }
 
 #four{
-    font-size: 40px;
-    width: 100%;
-    padding-left:100; 
-}
-
-#five{
-    font-size: 40px;
-    width: 100%;
-    padding-left:400; 
-}
-
-#studios{
     font-size: 60px;
     width: 100%;
     padding-left:100; 
 }
 
+#five{
+    font-size: 60px;
+    width: 100%;
+    padding-left:400; 
+}
+
+#studios{
+    font-size: 80px;
+    width: 100%;
+    padding-left:100; 
+}
+
 #six{
-    font-size: 40px;
+    font-size: 60px;
     width: 100%;
     padding-left:400; 
 }
 
 #seven{
-    font-size: 40px;
+    font-size: 70px;
     width: 100%;
     padding-left:100; 
 }
 
 #immersed{
-    font-size: 70px;
+    font-size: 80px;
     width: 100%;
     padding-left:300; 
 }
@@ -467,69 +475,69 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 0%, rgba
 }
 
 #clear{
-    font-size: 70px;
+    font-size: 80px;
     width: 100%;
     padding-left:200; 
     text-align: left;
 }
 
 #nine{
-    font-size: 40px;
+    font-size: 60px;
     width: 100%;
     padding-left:100; 
 }
 
 #ten{
-    font-size: 40px;
+    font-size: 60px;
     width: 100%;
     padding-left:400; 
 }
 
 #eleven{
-    font-size: 40px;
+    font-size: 60px;
     width: 100%;
     padding-left:100; 
 }
 
 #actually{
-    font-size: 80px;
+    font-size: 100px;
     width: 100%;
     padding-left:200; 
 }
 
 #twelve{
-    font-size: 40px;
+    font-size: 60px;
     width: 100%;
     padding-left:100; 
 }
 
 #thirteen{
-    font-size: 40px;
+    font-size: 60px;
     width: 100%;
     padding-left:300; 
 }
 
 #fourteen{
-    font-size: 40px;
+    font-size: 60px;
     width: 100%;
     padding-left:400; 
 }
 
 #ambience{
-    font-size: 80px;
+    font-size: 100px;
     width: 100%;
     text-align:left;
     padding-left:100; 
 }
 
 #fifteen{
-    font-size: 40px;
+    font-size: 60px;
     width: 100%;
     padding-left:400; 
 }
 
 #sixteen{
-    font-size: 40px;
+    font-size: 60px;
     width: 100%;
     padding-left:100; 
 }
@@ -541,19 +549,19 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 0%, rgba
 }
 
 #seventeen{
-    font-size: 40px;
+    font-size: 60px;
     width: 100%;
     padding-left:100; 
 }
 
 #eighteen{
-    font-size: 40px;
+    font-size: 60px;
     width: 100%;
     padding-left:400; 
 }
 
 #credits{
-    font-size: 40px;
+    font-size: 60px;
     width: 100%;
     padding-left:300; 
 }
@@ -571,6 +579,6 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 0%, rgba
     cursor: pointer; 
     padding: 15px; 
     border-radius: 10px; 
-    font-size: 40px; 
+    font-size: 60px; 
   }
   }
