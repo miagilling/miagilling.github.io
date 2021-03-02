@@ -391,10 +391,13 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 0%, rgba
     body{
         margin:0;
     }
+
+    div { width: 100%; height: 100%; min-width: 1000px; min-height: 1000px; }
   
 #one{
        font-size: 60px;
        width: 100%;
+       padding-bottom:4500;
    }
 
 #it{
@@ -402,11 +405,13 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 0%, rgba
     padding-left:400;
     padding-right:0;
     width: 100%;
+    padding-bottom:4500;
 }
 
 #two{
     font-size: 60px;
     width: 100%;
+    padding-bottom:4500;
 }
 
 #sonic{
@@ -415,12 +420,14 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 0%, rgba
     text-align: left;
     padding-left:400;
     padding-right:0;
+    padding-bottom:4500;
 }
 
 #three{
     font-size: 60px;
     width: 100%;
     padding-left:100;
+    padding-bottom:4500;
 }
 
 #surrounding{
@@ -429,42 +436,49 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 0%, rgba
     padding-right:0;
     text-align:center;
     width: 100%;
+    padding-bottom:4500;
 }
 
 #four{
     font-size: 60px;
     width: 100%;
     padding-left:100; 
+    padding-bottom:4500;
 }
 
 #five{
     font-size: 60px;
     width: 100%;
     padding-left:400; 
+    padding-bottom:4500;
 }
 
 #studios{
     font-size: 80px;
     width: 100%;
     padding-left:100; 
+    padding-bottom:4500;
 }
 
 #six{
     font-size: 60px;
     width: 100%;
     padding-left:400; 
+    padding-bottom:4500;
 }
 
 #seven{
     font-size: 70px;
     width: 100%;
     padding-left:100; 
+    padding-bottom:4500;
 }
 
 #immersed{
     font-size: 80px;
     width: 100%;
     padding-left:300; 
+    padding-bottom:4500;
 }
 
 #eight{
@@ -472,6 +486,7 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 0%, rgba
     width: 100%;
     padding-left:100; 
     text-align: left;
+    padding-bottom:4500;
 }
 
 #clear{
@@ -479,48 +494,56 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 0%, rgba
     width: 100%;
     padding-left:200; 
     text-align: left;
+    padding-bottom:4500;
 }
 
 #nine{
     font-size: 60px;
     width: 100%;
     padding-left:100; 
+    padding-bottom:4500;
 }
 
 #ten{
     font-size: 60px;
     width: 100%;
     padding-left:400; 
+    padding-bottom:4500;
 }
 
 #eleven{
     font-size: 60px;
     width: 100%;
     padding-left:100; 
+    padding-bottom:4500;
 }
 
 #actually{
     font-size: 100px;
     width: 100%;
     padding-left:200; 
+    padding-bottom:4500;
 }
 
 #twelve{
     font-size: 60px;
     width: 100%;
     padding-left:100; 
+    padding-bottom:4500;
 }
 
 #thirteen{
     font-size: 60px;
     width: 100%;
     padding-left:300; 
+    padding-bottom:4500;
 }
 
 #fourteen{
     font-size: 60px;
     width: 100%;
     padding-left:400; 
+    padding-bottom:4500;
 }
 
 #ambience{
@@ -528,36 +551,42 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 0%, rgba
     width: 100%;
     text-align:left;
     padding-left:100; 
+    padding-bottom:4500;
 }
 
 #fifteen{
     font-size: 60px;
     width: 100%;
     padding-left:400; 
+    padding-bottom:4500;
 }
 
 #sixteen{
     font-size: 60px;
     width: 100%;
     padding-left:100; 
+    padding-bottom:4500;
 }
 
 #induce{
     font-size: 80px;
     width: 100%;
     padding-left:300; 
+    padding-bottom:4500;
 }
 
 #seventeen{
     font-size: 60px;
     width: 100%;
-    padding-left:100; 
+    padding-left:100;
+    padding-bottom:4500; 
 }
 
 #eighteen{
     font-size: 60px;
     width: 100%;
     padding-left:400; 
+    padding-bottom:4500;
 }
 
 #credits{
