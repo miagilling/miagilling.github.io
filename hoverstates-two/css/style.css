@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(68, 146, 248);
+}
+div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    color: darkgreen;
+}
+
+.two{
+    color: transparent;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.two:hover{
+    color:darkgreen;
+    text-shadow: none;
+}
