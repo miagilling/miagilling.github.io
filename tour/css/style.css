@@ -25,15 +25,19 @@ p{
 #photowall{
     display:flex;
     flex-flow: row;
-    /* my photos are appearing weird right now, im not sure what i did wrong w the flex wrap ?? 
-    i just wanted them in a horizontal row */
-    justify-content: space-between;
+    justify-content: space-around;
     padding:0;
     margin:0;
 }
 
 .image{
+    width:25%;
     margin:auto;
+}
+
+.image img{
+    width:100%;
+    display:block;
 }
 
 a{

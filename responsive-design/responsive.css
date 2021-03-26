@@ -11,7 +11,7 @@ h2{
     font-weight: lighter;
     font-style: italic;
     color:rgb(99, 95, 95);
-    font-size:2.5em;
+    font-size:2em;
 }
 
 body{
@@ -44,7 +44,7 @@ p{
 
     h2{
         color:blue;
-        font-size: 3em;
+        font-size: 2em;
     }
 
     .container{
@@ -53,5 +53,56 @@ p{
         flex-wrap: wrap;
     }
   }
+
+
+  @media screen and (min-width: 1024px) {
+    p {
+      font-size: 12px;
+      color:black;
+    }
+    h1{
+        font-size:5em;
+    }
+    h2{
+        font-size:3em;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    p {
+        font-size: 14px;
+        color: white;
+    }
+    body{
+        background-color: blue;
+    }
+    h1{
+        color:gainsboro;
+    }
+    h2{
+        color:gainsboro;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    body{
+        background-color: blue;
+    }
+    h1{
+        color: white;
+        font-size: 2em;
+    }
+    h2{
+        color: white;
+        font-size: 1em;
+    }
+    p{
+        color:gainsboro;
+        font-size: 14px;
+    }
+  }
+
+  
+  
 
   
