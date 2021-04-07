@@ -22,6 +22,10 @@ p{
     font-weight: lighter;
 }
 
+.door{
+    display:block;
+}
+
 #photowall{
     display:flex;
     flex-flow: row;
