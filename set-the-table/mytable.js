@@ -71,7 +71,7 @@ function setTable(allItems) {
       syrup.src = imageUrl;
       syrup.classList.add("syrup");
       container.appendChild(syrup);
-      syrup.style.width = "25%";
+      syrup.style.width = "15%";
     }
 
     if (name === "coffee") {
@@ -79,7 +79,7 @@ function setTable(allItems) {
       coffee.src = imageUrl;
       coffee.classList.add("coffee");
       container.appendChild(coffee);
-      coffee.style.width = "25%";
+      coffee.style.width = "30%";
     }
 
     if (name === "cream") {
@@ -87,7 +87,14 @@ function setTable(allItems) {
       cream.src = imageUrl;
       cream.classList.add("cream");
       container.appendChild(cream);
-      cream.style.width = "25%";
+      cream.style.width = "15%";
+    }
+
+    if (name === "tablecloth") {
+      let tablecloth = document.createElement('img');
+      tablecloth.src = imageUrl;
+      tablecloth.classList.add("tablecloth");
+      container.appendChild(tablecloth);
     }
 
     
