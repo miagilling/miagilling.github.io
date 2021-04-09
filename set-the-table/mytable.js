@@ -40,51 +40,56 @@ function setTable(allItems) {
   allItems.forEach(function(item) {
     let name = item.fields.name;
     console.log(name);
-    // let imageUrl = item.fields.images[0].url;
+    let imageUrl = item.fields.images[0].url;
 
-    // if (name === "Cup") {
-    //   for (var i=0; i<3; i++) {
-    //     let cup = document.createElement('img');
-    //     cup.src = imageUrl;
-    //     cup.classList.add("cup");
-    //     if (i === 0) {
-    //       cup.style.left = "550px";
-    //     }
-    //     if (i === 1) {
-    //       cup.style.left = "500px";
-    //       cup.style.top = "150px";
-    //     }
-    //     if (i === 2) {
-    //       cup.style.left = "60px";
-    //       cup.style.top = "30px";
-    //     }
-    //     container.appendChild(cup);
-    //   }
-    // }
-    // if (name === "Plate") {
-    //   for (var i=0; i<3; i++) {
-    //     let plate = document.createElement('img');
-    //     plate.src = imageUrl;
-    //     plate.classList.add("plate");
-    //     if (i === 0) {
-    //       plate.style.left = "650px";
-    //     }
-    //     if (i === 1) {
-    //       plate.style.left = "400px";
-    //       plate.style.top = "250px";
-    //     }
-    //     if (i === 2) {
-    //       plate.style.left = "40px";
-    //       plate.style.top = "120px";
-    //     }
-    //     container.appendChild(plate);
-    //   }
-    // }
-    // if (name === "Tablecloth") {
-    //   let tablecloth = document.createElement('img');
-    //   tablecloth.src = imageUrl;
-    //   tablecloth.classList.add("tablecloth");
-    //   container.appendChild(tablecloth);
-    // }
+    if (name === "pancakes") {
+      let pancakes = document.createElement('img');
+      pancakes.src = imageUrl;
+      pancakes.classList.add("pancakes");
+      container.appendChild(pancakes);
+      pancakes.style.width = "50%";
+    }
+
+    if (name === "fork") {
+      let fork = document.createElement('img');
+      fork.src = imageUrl;
+      fork.classList.add("fork");
+      container.appendChild(fork);
+      fork.style.width = "25%";
+    }
+
+    if (name === "fruit") {
+      let fruit = document.createElement('img');
+      fruit.src = imageUrl;
+      fruit.classList.add("fruit");
+      container.appendChild(fruit);
+      fruit.style.width = "25%";
+    }
+
+    if (name === "syrup") {
+      let syrup = document.createElement('img');
+      syrup.src = imageUrl;
+      syrup.classList.add("syrup");
+      container.appendChild(syrup);
+      syrup.style.width = "25%";
+    }
+
+    if (name === "coffee") {
+      let coffee = document.createElement('img');
+      coffee.src = imageUrl;
+      coffee.classList.add("coffee");
+      container.appendChild(coffee);
+      coffee.style.width = "25%";
+    }
+
+    if (name === "cream") {
+      let cream = document.createElement('img');
+      cream.src = imageUrl;
+      cream.classList.add("cream");
+      container.appendChild(cream);
+      cream.style.width = "25%";
+    }
+
+    
   })
 }
