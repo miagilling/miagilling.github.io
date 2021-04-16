@@ -5,6 +5,7 @@ html {
     box-sizing: inherit;
   }
 
+
 .container{
     width:400px;
     height:400px;
@@ -14,12 +15,15 @@ html {
     flex-wrap: wrap;
     left:36.5%;
     top:15%
+  
+    
 }
 
 .box{
     border: 1px solid lightgray;
     width:33.33%;
     height:33.33%;
+ 
 }
 
 .box img{
@@ -49,3 +53,26 @@ a{
    text-align: center;
    margin-top:40%;
 }
+
+@media only screen and (max-width: 600px) {
+    .container{
+        width:250px;
+        height:250px;
+        left:18%;
+        top:15%
+    }
+
+    .button{
+        position: absolute;
+        left:37%;
+        top:35%;
+    }
+
+    .link{
+        position: absolute;
+        left:48%;
+        top:60%;
+    }
+
+  }
+  
