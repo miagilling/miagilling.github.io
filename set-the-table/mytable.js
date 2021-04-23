@@ -100,3 +100,20 @@ function setTable(allItems) {
     
   })
 }
+
+if (item.fields.type === "food") {
+  allFoodItems.push(item);
+}
+
+let showFoodButton = document.getElementById("show-food");
+showFoodButton.addEventListener('click', showAllTheFood);
+
+function showAllTheFood() {
+  allFoodItems.forEach(function(foodItem) {
+    let food = document.createElement('img');
+    food.src = foodItem.fields.images[0].url;
+    food.classList.add(foodItem.fields.class_name);
+    food.style.display = "block";
+    container.appendChild(food);
+  })
+}
