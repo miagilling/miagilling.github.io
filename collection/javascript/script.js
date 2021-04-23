@@ -1,3 +1,9 @@
+// FOR TECHNICAL REFLECTION ASSIGNMENT: 
+// i explained the code i added to this for my collection assignment
+// starting on line 49
+
+
+
 // FOLLOW THE COMMENTS STEP BY STEP
 // log in to you your Airtable account
 // make sure you have a base set up with at least one table with data inside it
@@ -40,16 +46,24 @@ base('captcha').select({}).eachPage(function page(records, fetchNextPage) {
   showImagesNine(allItems);
 });
 
+// this function is allowing me to display my first set of images on my site
 function showImagesOne(){
+// console.logging my functions showImagesOne & allItems to make sure they're working
     console.log("showImagesOne()");
     console.log(allItems[0]);
+// creating a variable (boxOne) to grab my div with the id 'one' 
     let boxOne = document.getElementById("one");
+// creating a variable (randomImage) to actually create an image in my div one
     let randomImage = document.createElement("img");
+// using a random number generator to select a random image from all of my airtable images
     let randomNumber = Math.floor(Math.random() * allItems.length) + 1;
+// this is where it's actually grabbing the image from- it's going to my airtable fields, then images, then getting the individual url
     randomImage.src = allItems[randomNumber].fields.images[0].url;
+// finally, i'm appending the random image it grabs to my div boxOne
     boxOne.appendChild(randomImage)
 }
 
+// repeating this same function for all nine of my divs !
 function showImagesTwo(){
     console.log("showImagesTwo()");
     console.log(allItems[0]);
