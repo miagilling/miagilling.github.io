@@ -1,5 +1,6 @@
 let arrayA = ["apple", "anaconda", "all"];
 let arrayB = ["bubble", "bob"];
+
 document.eventListener("keydown", showBusiness);
 function showBusiness() {
   document.getElementById("main-container").classList.add("hidden");
