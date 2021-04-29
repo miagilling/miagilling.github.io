@@ -17,64 +17,42 @@
 }
 
 body{
-    background-color: rgb(172, 98, 70);
+    background-color: cornflowerblue;
 }
 
 h1{
-    color:cornflowerblue;
-    font-family: cliftontrialregular;
-    font-size: 40px;
-    margin: 0 auto;
+    color:rgb(172, 98, 70);
+    font-family: cliftontrialitalic;
+    font-size: 220px;
+    margin-left:5%;
+    margin-bottom:0;
 }
 
 h2{
-    color:cornflowerblue;
+    color:rgb(172, 98, 70);
     font-family: cliftontrialregular;
-    font-size: 15px;
-    margin: 0 auto;
+    font-size: 35px;
+    margin-left:5%;
+    width:70%;
+}
+
+h3{
+    color:rgb(172, 98, 70);
+    font-family: cliftontrialitalic;
+    font-size: 20px;
+    margin-left:5%;
 }
 
 a{
-    color:cornflowerblue;
     font-family: cliftontrialitalic;
-    font-size: 15px;
-    margin: 0 auto;
-}
-
-#support{
-    font-family: cliftontrialitalic;
-    color:cornflowerblue;
-    font-size: 220px;
-    margin-left:5%;
-}
-
-#businesses{
-    font-family: cliftontrialregular;
-    color:cornflowerblue;
-    font-size: 120px;
-    margin-left:5%;
-}
-
-#box{
-    font-family: cliftontrialregular;
-    color:cornflowerblue;
-    font-size: 20px;
-    width:550px;
-    border: 2px cornflowerblue;
-    border-style: solid;
-    margin: 0 auto;
-    text-align: center;
-    height:90px;
-    line-height: 90px;
-    margin:5%;
-    margin-top:3%;
-    margin-left:5%;
-    margin-bottom:3%;
-}
-
-#about{
-    font-family: cliftontrialitalic;
-    color:cornflowerblue;
+    color:rgb(172, 98, 70);
     font-size: 50px;
     float:right;
+    margin-top:10%;
+    text-decoration: none;
 }
+
+a:hover{
+    color:darkgreen;
+}
+
