@@ -18,8 +18,8 @@ let arrayQ = ["queen"];
 let arrayR = ["roam", "rich", "red"];
 let arrayS = ["semicolon", "sankofa", "saint"];
 let arrayT = ["twelve", "theopolis", "thirteen"];
-let arrayU = ["uoma", "uncle", "uhai"];
-let arrayV = ["vavvuone","viz","virgo"];
+let arrayU = ["uoma", "uhai"];
+let arrayV = ["vavvuone","virgo"];
 let arrayW = ["white", "wholistic"];
 let arrayX = ["xn", "xoxo"];
 let arrayY = ["yam", "yusef"];
@@ -27,8 +27,8 @@ let arrayZ = ["zou", "zashadu", "zoezi"];
 
 document.eventListener("keydown", showBusiness);
 function showBusiness() {
-  document.getElementById("main-container").classList.add("hidden");
-  if (event.code === "KeyB") {
-    document.getElementById(arrayB[1]).classList.remove("hidden");
+  document.getElementById("ayesha").classList.add("hidden");
+  if (e.keyCode === "65") {
+    document.getElementById(arrayA[0]).classList.remove("hidden");
   }
 }

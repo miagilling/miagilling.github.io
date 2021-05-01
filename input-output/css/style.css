@@ -23,58 +23,101 @@ body{
 h1{
     color:cornflowerblue;
     font-family: cliftontrialregular;
-    font-size: 40px;
+    font-size: 50px;
     margin: 0 auto;
 }
 
 h2{
     color:cornflowerblue;
     font-family: cliftontrialregular;
-    font-size: 15px;
+    font-size: 20px;
     margin: 0 auto;
+    margin:1%;
 }
 
 a{
     color:cornflowerblue;
     font-family: cliftontrialitalic;
-    font-size: 15px;
+    font-size: 20px;
     margin: 0 auto;
+    text-decoration: none;
+}
+
+a:hover{
+    color:rgb(159, 188, 241);
 }
 
 #support{
     font-family: cliftontrialitalic;
     color:cornflowerblue;
-    font-size: 220px;
-    margin-left:5%;
+    font-size: 140px;
 }
 
 #businesses{
     font-family: cliftontrialregular;
     color:cornflowerblue;
-    font-size: 120px;
-    margin-left:5%;
+    font-size: 35px;
+    margin-bottom:0;
 }
 
 #box{
     font-family: cliftontrialregular;
     color:cornflowerblue;
-    font-size: 20px;
-    width:550px;
+    font-size: 15px;
+    width:400px;
     border: 2px cornflowerblue;
     border-style: solid;
     margin: 0 auto;
     text-align: center;
-    height:90px;
-    line-height: 90px;
+    height:50px;
+    line-height: 50px;
     margin:5%;
-    margin-top:3%;
-    margin-left:5%;
-    margin-bottom:3%;
+    margin-top:10px;
+    margin-bottom:1%;
+    margin-left:0;
 }
 
-#about{
+.aboutpage{
     font-family: cliftontrialitalic;
     color:cornflowerblue;
-    font-size: 50px;
+    font-size: 35px;
     float:right;
+    width:10%;
+    height:10%;
+    text-decoration: none;
+    margin-top:30%;
+}
+
+.aboutpage:hover{
+    color:rgb(159, 188, 241);
+}
+
+.hidden{
+    text-align: center;
+    border:2px solid cornflowerblue;
+    width:500px;
+    margin-left:55%;
+    position:relative;
+    top:-100;
+}
+
+img{
+    margin:5%;
+}
+
+#cursor {
+    animation: blinker 1s step-end infinite; 
+  }
+  @keyframes blinker {  
+    50% { opacity: 0; }
+
+}
+
+#container {
+    background-color: #efefef;
+    width: 30px;
+    padding: 50px;
+    margin: 50px auto;
+    word-wrap: break-word;
+    text-align:center;
 }

@@ -23,36 +23,55 @@ body{
 h1{
     color:rgb(172, 98, 70);
     font-family: cliftontrialitalic;
-    font-size: 220px;
-    margin-left:5%;
+    font-size: 140px;
     margin-bottom:0;
+    margin-left:1%;
 }
 
 h2{
     color:rgb(172, 98, 70);
     font-family: cliftontrialregular;
-    font-size: 35px;
-    margin-left:5%;
-    width:70%;
+    font-size: 20px;
+    width:40%;
+    margin-left:1%;
+    margin-top:0;
 }
 
 h3{
     color:rgb(172, 98, 70);
     font-family: cliftontrialitalic;
     font-size: 20px;
-    margin-left:5%;
+    margin-left:1%;
+    margin-top:3%;
+    float:left;
+}
+
+.homebutton{
+    font-family: cliftontrialitalic;
+    color:rgb(172, 98, 70);
+    font-size: 35px;
+    float:right;
+    margin-top:3%;
+    text-decoration: none;
+}
+
+.homebutton:hover{
+    color:rgb(224, 162, 139);
 }
 
 a{
-    font-family: cliftontrialitalic;
     color:rgb(172, 98, 70);
-    font-size: 50px;
-    float:right;
-    margin-top:10%;
+    font-family: cliftontrialitalic;
+    font-size: 20px;
+    margin-left:5%;
     text-decoration: none;
 }
 
 a:hover{
-    color:darkgreen;
+    color:rgb(224, 162, 139);
 }
 
+.links{
+    column-count: 2;
+    max-width:800px;
+}
