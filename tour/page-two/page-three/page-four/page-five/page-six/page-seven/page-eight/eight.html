@@ -8,12 +8,37 @@
     <body>
         <h1>my window</h1>
         <h2>one of my favorite spots in my apartment!! i have west-facing windows, so i get to watch the sunset every night</h2>
-        <p>because i'm obsessed with watching the sunset, i have quite a large collection of sunset photos (from my window) so i want this page to be a gallery of them</p>
        
-        <div id="window">
-            <img src="images/sunset1.jpeg" width="50%">
-            <p>this will be the 'window,' and inside will be a gallery of sunset photos that users can click through so they can feel like they're looking out my window</p>
+        <!-- slideshow code from w3 schools -->
+        <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="sunsets/IMG_4459.jpeg" style="width:100%">
         </div>
+  
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+             <img src="sunsets/IMG_4461.jpeg" style="width:100%">
+        </div>
+  
+            <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="sunsets/IMG_5864.jpeg" style="width:100%">
+            </div>
+  
+         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+         <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <br>
+  
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        </div>
+
         <a href="page-nine/nine.html">next!</a>
+        <script src="js/eight.js"></script>
     </body>
 </html>

@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(252, 227, 227);
 }
 
 h1{
@@ -26,22 +26,22 @@ p{
     display:block;
 }
 
-#photowall{
-    display:flex;
-    flex-flow: row;
-    justify-content: space-around;
-    padding:0;
-    margin:0;
+#photoone{
+    position:absolute;
 }
 
-.image{
-    width:25%;
-    margin:auto;
+#photooneheader{
+    cursor:move;
+    z-index:10;
+    background-color: rgb(252, 227, 227);
+    width:200px;
+    font-family: 'Courier New', Courier, monospace;
+    color:mediumaquamarine;
 }
 
-.image img{
-    width:100%;
-    display:block;
+.twobutton{
+    position:relative;
+    top:600px;
 }
 
 a{
@@ -49,6 +49,8 @@ a{
     color:mediumaquamarine;
     text-decoration: none;
     background-color: lightpink;
+    position:relative;
+    width:60px;
 }
 
 a:hover{
@@ -56,16 +58,46 @@ a:hover{
     color:lightpink;
 }
 
-#mirror{
-    width:700px;
-    height:500px;
-    background-color: rgb(143, 148, 153);
+#pagethree{
+    background-color: black;
+}
+
+#bathroom{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size: 40px;
+    color:black;
+}
+
+#bathroomtwo{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size: 20px;
+    color:black;
+    width:450px;
+    margin-top:2%;
+}
+
+audio{
+    background-color:black;
+    color:black;
+    position:absolute;
+    top:650px;
+    left:20px;
+}
+
+button{
+    margin:100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color:white;
+    background-color: darkgrey;
 }
 
 #shelves{
     display:flex;
     flex-direction: column;
-}
+} 
 
 .shelf{
     width:800px;
@@ -73,7 +105,7 @@ a:hover{
     padding-bottom:10px;
     padding-top:10px;
     background-color: moccasin;
-}
+} 
 
 #window{
     width:700px;
@@ -81,23 +113,95 @@ a:hover{
     background-color: rgb(36, 35, 34);
 }
 
-#rug{
-    width:1000px;
-    height:1000px;
-    background-color: slategray;
-}
-
 #posterwall{
     display:flex;
     flex-direction: row;
 }
 
-.poster{
-    width:200px;
-    height:350px;
-    color:rgb(83, 65, 182);
+
+
+
+/* slideshow code from w3 schools */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
 }
 
-@media only screen and (max-width: 768px){
-/* im not sure what to do with breakpoints yet*/
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
