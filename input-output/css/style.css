@@ -98,7 +98,8 @@ a:hover{
     width:500px;
     margin-left:55%;
     position:relative;
-    top:-100;
+    top:-150px;
+    display:none;
 }
 
 img{
