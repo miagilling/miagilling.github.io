@@ -5,7 +5,6 @@ html {
     box-sizing: inherit;
   }
 
-
 .container{
     width:400px;
     height:400px;
@@ -39,19 +38,18 @@ h1{
     margin-top:5%;
 }
 
-a{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 8pt;
-}
 
-.link{
-    text-align: center;
-    margin-top:5%;
-}
-
-.button{
+button{
    text-align: center;
-   margin-top:40%;
+   margin-top:30%;
+   position:relative;
+   left:55%;
+   background-color:cornflowerblue;
+   border:none;
+   font-family: Arial, Helvetica, sans-serif;
+   color:white;
+   font-size: 15px;
+   padding:15px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -62,7 +60,7 @@ a{
         top:15%
     }
 
-    .button{
+    button{
         position: absolute;
         left:37%;
         top:35%;
@@ -76,3 +74,61 @@ a{
 
   }
   
+
+#blue{
+    background-color: cornflowerblue;
+    width:400px;
+    height:100px;
+    position:relative;
+    top:30px;
+    left:36.4%;
+
+}
+
+p{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position:relative;
+    top:17px;
+    left:5px;
+}
+
+.aboutbutton{
+    text-align: center;
+    margin-top:30%;
+    position:relative;
+    left:26.6%;
+    background-color:lightgray;
+    border:none;
+    padding:15px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:white;
+    background: lightgray;
+    padding:15px;
+    position:relative;
+    left:26.6%;
+  }
+
+ .tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(150, 150, 150);
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
