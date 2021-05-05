@@ -87,19 +87,30 @@
 // }
 
 
-// code from how to code school
+
+function hideAllElements()
+{
+  let allElements = document.querySelectorAll(".business");
+  allElements.forEach(function(business) {
+    if (business.style.display === "block") {
+      business.style.display = "none";
+    }
+  })
+}
+
 document.addEventListener("keydown", function(){
   var x=event.keyCode || event.which;
   if(x==65)
   {
-  var y = document.getElementById("ayesha");
+  hideAllElements();
+  var y = document.getElementById("adwoa");
   if (y.style.display === "none")
   {
-  document.getElementById("ayesha").style.display = "block";
+  document.getElementById("adwoa").style.display = "block";
   }
   else
   {
-  document.getElementById("ayesha").style.display = "none";
+  document.getElementById("adwoa").style.display = "none";
   }
   }
   })  
@@ -108,6 +119,7 @@ document.addEventListener("keydown", function(){
   var x=event.keyCode || event.which;
   if(x==66)
   {
+  hideAllElements();
   var y = document.getElementById("black");
   if (y.style.display === "none")
   {
@@ -124,6 +136,7 @@ document.addEventListener("keydown", function(){
   var x=event.keyCode || event.which;
   if(x==67)
   {
+  hideAllElements();
   var y = document.getElementById("clare");
   if (y.style.display === "none")
   {
@@ -140,6 +153,7 @@ document.addEventListener("keydown", function(){
   var x=event.keyCode || event.which;
   if(x==68)
   {
+  hideAllElements();
   var y = document.getElementById("dope");
   if (y.style.display === "none")
   {
@@ -157,14 +171,15 @@ document.addEventListener("keydown", function(){
   var x=event.keyCode || event.which;
   if(x==69)
   {
-  var y = document.getElementById("eleven");
+  hideAllElements();
+  var y = document.getElementById("ekua");
   if (y.style.display === "none")
   {
-  document.getElementById("eleven").style.display = "block";
+  document.getElementById("ekua").style.display = "block";
   }
   else
   {
-  document.getElementById("eleven").style.display = "none";
+  document.getElementById("ekua").style.display = "none";
   }
   }
   })  
@@ -174,14 +189,15 @@ document.addEventListener("keydown", function(){
   var x=event.keyCode || event.which;
   if(x==70)
   {
-  var y = document.getElementById("frolic");
+  hideAllElements();
+  var y = document.getElementById("fenty");
   if (y.style.display === "none")
   {
-  document.getElementById("frolic").style.display = "block";
+  document.getElementById("fenty").style.display = "block";
   }
   else
   {
-  document.getElementById("frolic").style.display = "none";
+  document.getElementById("fenty").style.display = "none";
   }
   }
   })  
@@ -190,6 +206,7 @@ document.addEventListener("keydown", function(){
   var x=event.keyCode || event.which;
   if(x==71)
   {
+  hideAllElements();
   var y = document.getElementById("goodee");
   if (y.style.display === "none")
   {
@@ -206,14 +223,15 @@ document.addEventListener("keydown", function(){
   var x=event.keyCode || event.which;
   if(x==72)
   {
-  var y = document.getElementById("harlem");
+  hideAllElements();
+  var y = document.getElementById("hyper");
   if (y.style.display === "none")
   {
-  document.getElementById("harlem").style.display = "block";
+  document.getElementById("hyper").style.display = "block";
   }
   else
   {
-  document.getElementById("harlem").style.display = "none";
+  document.getElementById("hyper").style.display = "none";
   }
   }
   })  
@@ -222,6 +240,7 @@ document.addEventListener("keydown", function(){
   var x=event.keyCode || event.which;
   if(x==73)
   {
+  hideAllElements();
   var y = document.getElementById("ivy");
   if (y.style.display === "none")
   {
@@ -238,6 +257,7 @@ document.addEventListener("keydown", function(){
   var x=event.keyCode || event.which;
   if(x==74)
   {
+  hideAllElements();
   var y = document.getElementById("johanna");
   if (y.style.display === "none")
   {
@@ -254,6 +274,7 @@ document.addEventListener("keydown", function(){
   var x=event.keyCode || event.which;
   if(x==75)
   {
+  hideAllElements();
   var y = document.getElementById("kendrick");
   if (y.style.display === "none")
   {
@@ -270,6 +291,7 @@ document.addEventListener("keydown", function(){
   var x=event.keyCode || event.which;
   if(x==76)
   {
+  hideAllElements();
   var y = document.getElementById("lapp");
   if (y.style.display === "none")
   {
@@ -286,6 +308,7 @@ document.addEventListener("keydown", function(){
   var x=event.keyCode || event.which;
   if(x==77)
   {
+  hideAllElements();
   var y = document.getElementById("mahogany");
   if (y.style.display === "none")
   {
@@ -302,6 +325,7 @@ document.addEventListener("keydown", function(){
   var x=event.keyCode || event.which;
   if(x==78)
   {
+  hideAllElements();
   var y = document.getElementById("nia");
   if (y.style.display === "none")
   {
@@ -318,14 +342,15 @@ document.addEventListener("keydown", function(){
   var x=event.keyCode || event.which;
   if(x==79)
   {
-  var y = document.getElementById("oat");
+  hideAllElements();
+  var y = document.getElementById("organic");
   if (y.style.display === "none")
   {
-  document.getElementById("oat").style.display = "block";
+  document.getElementById("organic").style.display = "block";
   }
   else
   {
-  document.getElementById("oat").style.display = "none";
+  document.getElementById("organic").style.display = "none";
   }
   }
   })  
@@ -334,6 +359,7 @@ document.addEventListener("keydown", function(){
   var x=event.keyCode || event.which;
   if(x==80)
   {
+  hideAllElements();
   var y = document.getElementById("partake");
   if (y.style.display === "none")
   {
@@ -350,6 +376,7 @@ document.addEventListener("keydown", function(){
   var x=event.keyCode || event.which;
   if(x==81)
   {
+  hideAllElements();
   var y = document.getElementById("queen");
   if (y.style.display === "none")
   {
@@ -366,6 +393,7 @@ document.addEventListener("keydown", function(){
   var x=event.keyCode || event.which;
   if(x==82)
   {
+  hideAllElements();
   var y = document.getElementById("roam");
   if (y.style.display === "none")
   {
@@ -382,14 +410,15 @@ document.addEventListener("keydown", function(){
   var x=event.keyCode || event.which;
   if(x==83)
   {
-  var y = document.getElementById("semicolon");
+  hideAllElements();
+  var y = document.getElementById("saint");
   if (y.style.display === "none")
   {
-  document.getElementById("semicolon").style.display = "block";
+  document.getElementById("saint").style.display = "block";
   }
   else
   {
-  document.getElementById("semicolon").style.display = "none";
+  document.getElementById("saint").style.display = "none";
   }
   }
   })  
@@ -398,6 +427,7 @@ document.addEventListener("keydown", function(){
   var x=event.keyCode || event.which;
   if(x==84)
   {
+  hideAllElements();
   var y = document.getElementById("twelve");
   if (y.style.display === "none")
   {
@@ -414,14 +444,15 @@ document.addEventListener("keydown", function(){
   var x=event.keyCode || event.which;
   if(x==85)
   {
-  var y = document.getElementById("uoma");
+  hideAllElements();
+  var y = document.getElementById("uhai");
   if (y.style.display === "none")
   {
-  document.getElementById("uoma").style.display = "block";
+  document.getElementById("uhai").style.display = "block";
   }
   else
   {
-  document.getElementById("uoma").style.display = "none";
+  document.getElementById("uhai").style.display = "none";
   }
   }
   })  
@@ -430,14 +461,15 @@ document.addEventListener("keydown", function(){
   var x=event.keyCode || event.which;
   if(x==86)
   {
-  var y = document.getElementById("vavvoune");
+  hideAllElements();
+  var y = document.getElementById("virgo");
   if (y.style.display === "none")
   {
-  document.getElementById("vavvoune").style.display = "block";
+  document.getElementById("virgo").style.display = "block";
   }
   else
   {
-  document.getElementById("vavvoune").style.display = "none";
+  document.getElementById("virgo").style.display = "none";
   }
   }
   })  
@@ -446,14 +478,15 @@ document.addEventListener("keydown", function(){
   var x=event.keyCode || event.which;
   if(x==87)
   {
-  var y = document.getElementById("white");
+  hideAllElements();
+  var y = document.getElementById("wholistic");
   if (y.style.display === "none")
   {
-  document.getElementById("white").style.display = "block";
+  document.getElementById("wholistic").style.display = "block";
   }
   else
   {
-  document.getElementById("white").style.display = "none";
+  document.getElementById("wholistic").style.display = "none";
   }
   }
   })  
@@ -462,6 +495,7 @@ document.addEventListener("keydown", function(){
   var x=event.keyCode || event.which;
   if(x==88)
   {
+  hideAllElements();
   var y = document.getElementById("xn");
   if (y.style.display === "none")
   {
@@ -478,6 +512,7 @@ document.addEventListener("keydown", function(){
   var x=event.keyCode || event.which;
   if(x==89)
   {
+  hideAllElements();
   var y = document.getElementById("yam");
   if (y.style.display === "none")
   {
@@ -494,6 +529,7 @@ document.addEventListener("keydown", function(){
   var x=event.keyCode || event.which;
   if(x==90)
   {
+  hideAllElements();
   var y = document.getElementById("zou");
   if (y.style.display === "none")
   {
