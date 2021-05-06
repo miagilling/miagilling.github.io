@@ -25,6 +25,7 @@ h1{
     font-family: cliftontrialregular;
     font-size: 50px;
     margin: 0 auto;
+    text-align: center;
 }
 
 h2{
@@ -50,38 +51,37 @@ a:hover{
 #support{
     font-family: cliftontrialitalic;
     color:cornflowerblue;
-    font-size: 140px;
+    font-size: 120px;
+    text-align: center;
 }
 
 #businesses{
     font-family: cliftontrialregular;
     color:cornflowerblue;
-    font-size: 35px;
+    font-size: 25px;
     margin-bottom:0;
+    text-align: center;
 }
 
 #box{
-    font-family: cliftontrialregular;
+    font-family: cliftontrialitalic;
     color:cornflowerblue;
-    font-size: 15px;
+    font-size: 16px;
     width:400px;
-    border: 2px cornflowerblue;
-    border-style: solid;
     margin: 0 auto;
     text-align: center;
-    height:50px;
-    line-height: 50px;
-    margin:5%;
     margin-top:10px;
-    margin-bottom:1%;
-    margin-left:0;
+    margin-bottom:20px;
+   
 }
 
 .aboutpage{
     font-family: cliftontrialitalic;
     color:cornflowerblue;
-    font-size: 35px;
-    float:right;
+    font-size: 25px;
+    position:fixed;
+    left:1320px;
+    top:275px;
     width:10%;
     height:10%;
     text-decoration: none;
@@ -96,22 +96,12 @@ a:hover{
     text-align: center;
     border:2px solid cornflowerblue;
     width:500px;
-    margin-left:55%;
-    position:relative;
-    top:-150px;
+    margin:auto;
     display:none;
 }
 
 img{
     margin:5%;
-}
-
-#cursor {
-    animation: blinker 1s step-end infinite; 
-  }
-  @keyframes blinker {  
-    50% { opacity: 0; }
-
 }
 
 #container {
@@ -122,3 +112,42 @@ img{
     word-wrap: break-word;
     text-align:center;
 }
+
+
+@media only screen and (max-width: 600px){
+    #support{
+        font-size: 100px;
+    }
+
+    #businesses{
+        font-size: 19px;
+    }
+
+    .hidden{
+        width:350px;
+        margin:auto;
+    }
+
+    .aboutpage{
+       top:600px;
+       margin-left:auto;
+       margin-right:auto;
+    }
+}
+
+
+@media only screen and (max-width: 400px){
+    #support{
+        font-size: 90px;
+    }
+
+    #businesses{
+        font-size: 18px;
+    }
+
+    .hidden{
+        width:300px;
+        margin:auto;
+    }
+}
+
