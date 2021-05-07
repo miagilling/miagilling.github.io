@@ -79,11 +79,13 @@ a:hover{
     font-family: cliftontrialitalic;
     color:cornflowerblue;
     font-size: 25px;
-    position:fixed;
-    left:1320px;
-    top:275px;
+    position:absolute;
+    /* left:1320px;
+    top:275px; */
     width:10%;
     height:10%;
+    right:5px;
+    bottom:5px;
     text-decoration: none;
     margin-top:30%;
 }
