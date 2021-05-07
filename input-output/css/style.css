@@ -17,7 +17,7 @@
 }
 
 body{
-    background-color: rgb(172, 98, 70);
+    background-color: rgb(141, 86, 66);
 }
 
 h1{
@@ -81,12 +81,10 @@ a:hover{
     color:cornflowerblue;
     font-size: 25px;
     position:absolute;
-    /* left:1320px;
-    top:275px; */
     width:10%;
     height:10%;
-    right:5px;
-    bottom:5px;
+    right:-30px;
+    bottom:-30px;
     text-decoration: none;
     margin-top:30%;
 }
@@ -132,9 +130,11 @@ img{
     }
 
     .aboutpage{
-       top:600px;
+       /* top:600px;
        margin-left:auto;
-       margin-right:auto;
+       margin-right:auto; */
+       right: 200px;
+       bottom: 0px;
     }
 }
 
