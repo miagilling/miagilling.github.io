@@ -14,6 +14,7 @@ var base = new Airtable({ apiKey: "keyVkcd9aadb1WT6Q" }).base(
 );
 
 let allItems = [];
+let allFoodItems = [];
 
 base('table').select({}).eachPage(function page(records, fetchNextPage) {
   records.forEach(function(record) {
@@ -32,9 +33,10 @@ base('table').select({}).eachPage(function page(records, fetchNextPage) {
   setTable(allItems);
 });
 
+let container = document.createElement("div");
+
 function setTable(allItems) {
   console.log(allItems);
-  let container = document.createElement("div");
   container.classList.add("container");
   document.body.appendChild(container);
   allItems.forEach(function(item) {
@@ -42,68 +44,63 @@ function setTable(allItems) {
     console.log(name);
     let imageUrl = item.fields.images[0].url;
 
-    if (name === "pancakes") {
-      let pancakes = document.createElement('img');
-      pancakes.src = imageUrl;
-      pancakes.classList.add("pancakes");
-      container.appendChild(pancakes);
-      pancakes.style.width = "50%";
-    }
-
-    if (name === "fork") {
-      let fork = document.createElement('img');
-      fork.src = imageUrl;
-      fork.classList.add("fork");
-      container.appendChild(fork);
-      fork.style.width = "25%";
-    }
-
-    if (name === "fruit") {
-      let fruit = document.createElement('img');
-      fruit.src = imageUrl;
-      fruit.classList.add("fruit");
-      container.appendChild(fruit);
-      fruit.style.width = "25%";
-    }
-
-    if (name === "syrup") {
-      let syrup = document.createElement('img');
-      syrup.src = imageUrl;
-      syrup.classList.add("syrup");
-      container.appendChild(syrup);
-      syrup.style.width = "15%";
-    }
-
-    if (name === "coffee") {
-      let coffee = document.createElement('img');
-      coffee.src = imageUrl;
-      coffee.classList.add("coffee");
-      container.appendChild(coffee);
-      coffee.style.width = "30%";
-    }
-
-    if (name === "cream") {
-      let cream = document.createElement('img');
-      cream.src = imageUrl;
-      cream.classList.add("cream");
-      container.appendChild(cream);
-      cream.style.width = "15%";
-    }
-
-    if (name === "tablecloth") {
-      let tablecloth = document.createElement('img');
-      tablecloth.src = imageUrl;
-      tablecloth.classList.add("tablecloth");
-      container.appendChild(tablecloth);
-    }
-
-    
+    if (item.fields.type === "food") {
+      // if item is type food, push it into an array to use later in showAllFood function
+     allFoodItems.push(item);
+  } else {
+     // otherwise make a new element and show it on the page!
+     if (name === "pancakes") {
+        let pancakes = document.createElement('img');
+        pancakes.src = imageUrl;
+        pancakes.classList.add("pancakes");
+        container.appendChild(pancakes);
+        pancakes.style.width = "50%";
+      }
+      if (name === "fork") {
+        let fork = document.createElement('img');
+        fork.src = imageUrl;
+        fork.classList.add("fork");
+        container.appendChild(fork);
+        fork.style.width = "25%";
+      }
+      if (name === "fruit") {
+        let fruit = document.createElement('img');
+        fruit.src = imageUrl;
+        fruit.classList.add("fruit");
+        container.appendChild(fruit);
+        fruit.style.width = "25%";
+      }
+      if (name === "syrup") {
+        let syrup = document.createElement('img');
+        syrup.src = imageUrl;
+        syrup.classList.add("syrup");
+        container.appendChild(syrup);
+        syrup.style.width = "15%";
+      }
+      if (name === "coffee") {
+        let coffee = document.createElement('img');
+        coffee.src = imageUrl;
+        coffee.classList.add("coffee");
+        container.appendChild(coffee);
+        coffee.style.width = "30%";
+      }
+      if (name === "cream") {
+        let cream = document.createElement('img');
+        cream.src = imageUrl;
+        cream.classList.add("cream");
+        container.appendChild(cream);
+        cream.style.width = "15%";
+      }
+      if (name === "tablecloth") {
+        let tablecloth = document.createElement('img');
+        tablecloth.src = imageUrl;
+        tablecloth.classList.add("tablecloth");
+        container.appendChild(tablecloth);
+      }
+  }
   })
 }
 
-if (item.fields.type === "food") {
-  allFoodItems.push(item);
-}
 
 let showFoodButton = document.getElementById("show-food");
 showFoodButton.addEventListener('click', showAllTheFood);
@@ -117,3 +114,4 @@ function showAllTheFood() {
     container.appendChild(food);
   })
 }
+

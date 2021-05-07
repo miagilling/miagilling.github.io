@@ -18,11 +18,15 @@ body {
 
 .coffee{
   position:absolute;
+  width:25%;
+  top:0px;
 }
 
 .fruit{
   position:absolute;
-  left:400px;
+  left:250px;
+  width:25%;
+  top:-50px;
 }
 
 .fork{
@@ -33,17 +37,21 @@ body {
 
 .syrup{
   position:absolute;
-  left:280px;
-  top:80px;
+  left:400px;
+  top:100px;
+  width:15%;
 }
 
 .cream{
   position:absolute;
-  left:150px;
+  left:120px;
+  width:15%;
+  top:0px;
 }
 
 .pancakes{
   position:absolute;
   top:200px;
   left:150px;
+  width:45%;
 }
