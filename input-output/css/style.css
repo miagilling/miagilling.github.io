@@ -45,7 +45,7 @@ a{
 }
 
 a:hover{
-    color:rgb(159, 188, 241);
+    color:rgb(224, 162, 139);
 }
 
 #support{
@@ -67,6 +67,7 @@ a:hover{
     font-family: cliftontrialitalic;
     color:cornflowerblue;
     font-size: 16px;
+    font-weight: bolder;
     width:400px;
     margin: 0 auto;
     text-align: center;
@@ -91,7 +92,7 @@ a:hover{
 }
 
 .aboutpage:hover{
-    color:rgb(159, 188, 241);
+    color:rgb(224, 162, 139);
 }
 
 .hidden{
