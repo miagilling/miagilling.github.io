@@ -89,7 +89,7 @@ a:hover{
 
 @media only screen and (max-width: 1024px){
     a{
-        left:15px;
+        left:-40px;
     }
 
     h1{
@@ -116,7 +116,7 @@ a:hover{
 
 @media only screen and (max-width: 600px){
     a{
-        left:10px;
+        left:-20px;
         font-size: 14px;
     }
 
